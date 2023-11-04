@@ -1,0 +1,449 @@
+.gamemaincontainer {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height : 800px;
+}
+
+.maincontainer {
+    display: flex;
+    width: 100%;
+    height : 800px;
+}
+
+.container0 {
+    width : 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    text-align: center;
+}
+
+.container0 input {
+    text-align: center;
+    width: 30%;
+    height : 35px;
+    margin : 3%;
+    border : 2px solid black;
+    border-radius: 5px;
+    font-size: 22px;
+}
+
+.container0 button {
+    width : 15%;
+    height : 35px;
+    border : 2px solid black;
+    font-size: 19px;
+    border-radius: 10px;;
+}
+
+.container0 button:hover {
+    background-color: black;
+    color : white;
+}
+
+.container {
+    width: 50%;
+    height : 650px;
+}
+
+.container2 {
+    width : 50%;
+    height : 650px;
+    margin-left: 3%;
+}
+
+
+.welcome {
+    background-image: url('ab.avif');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color : white;
+    margin: 0;
+    height : 750px;
+}
+
+.gametab {
+    width: 100%;
+    height: 600px;
+    border : 4px solid black;
+    border-radius: 8px;
+    margin-top: 1%;
+    border-collapse: collapse;
+}
+
+table {
+    width: 90%;
+    height: 600px;
+    border : 4px solid black;
+    border-radius: 8px;
+    margin-top: 1%;
+    border-collapse: collapse;
+}
+
+.destroyed-cell {
+    width: 20%;
+    background-image: url('destroyedship.png');
+    background-position: left top;
+    background-size: 350%;
+    border : 1px solid black;
+}
+
+.empty-cell {
+    width: 20%;
+    border : 1px solid black;
+    background-color: rgb(22,83,94);
+}
+
+.occupied-cell {
+    width : 20%;
+    background-image: url('realship.png');
+    background-position: left top;
+    background-size: 350%;
+    border : 1px solid black;
+}
+
+.miss-cell {
+    width : 20%;
+    border : 1px solid black;
+    background-image: url('missshot.png');
+    background-size: 170%;
+    
+}
+
+.lost-cell {
+    width : 20%;
+    border : 2px solid red ;
+    background-color: black;
+}
+
+.num {
+    width: 20%;
+    text-align: center;
+    font-size: 25px;
+}
+
+.maintitle {
+    width : 40%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: grey;
+    border : 2px solid black;
+    text-align: center;
+    margin-top : 5%;
+    text-decoration: none;
+}
+
+.bigcontent {
+    display: flex;
+    width : 100%;
+}
+
+.bigcontentleft {
+    width : 85%;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.bigcontentlefttop {
+    font-size: 40px;
+    font-family: "FoundersGrotesk-Medium", "Arial", "Helvetica", sans-serif;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bigcontentleftmid {
+    font-size: 25px;
+    font-family: "FoundersGrotesk-Light", "Arial", "Helvetica", sans-serif;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bigcontentleftbot button {
+    margin-top: 3%;
+    border : 1px solid white;
+    background-color: inherit;
+    color : white;
+    width: 15%;
+    font-size: 20px;
+    height: 50px;
+    font-family: "FoundersGrotesk-Medium", "Arial", "Helvetica", sans-serif;
+}
+
+.bigcontentright {
+    width:15%;
+    border-left: 1px solid rgba(255, 255, 255, 0.326);
+    height: 750px;
+}
+
+.bigcontentrightbox {
+    width : 100%;
+    height : 110px;
+    font-size: 25px;
+    font-family: "FoundersGrotesk-Medium", "Arial", "Helvetica", sans-serif;
+    text-align: center;
+}
+
+.bigcontentrightbox p {
+    padding-top: 20%;
+}
+
+a {
+    text-decoration: none;
+    color : white;
+}
+
+hr {
+    width : 40%;
+}
+
+.formbigcontainer {
+    display: flex;
+    width: 100%;
+    height : 600px;
+}
+
+.formfirstcontainer {
+    width : 35%;
+    text-align: center;
+    height : 600px;
+}
+
+.globalformsecondcontainer {
+    width : 100%;
+    height : 600px;
+    display: flex;
+}
+
+.bigexplaincontainer {
+    width: 10%;
+    height : 600px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.explaincontainer {
+    margin-top: 10%;
+    margin-right: 10%;
+    height: 60px;
+    width: 100%;
+    border : 3px solid black;
+    border-radius: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(0, 0, 255, 0.332);
+}
+
+.explaincontainer:hover {
+    border : 3px solid white;
+}
+
+.Caseexplaincontainer:hover {
+    border : 3px solid white;
+}
+
+.Caseexplaincontainer {
+    margin-top: 10%;
+    margin-right: 10%;
+    height: 85px;
+    width: 100%;
+    border : 3px solid black;
+    border-radius: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(0, 0, 255, 0.332);
+}
+
+.formsecondcontainer {
+    width: 95%;
+    height : 600px;
+}
+
+.toptab th {
+ height: 5px;
+ text-align: center;
+}
+
+.lefttab th {
+    width: 1.7%;
+    text-align: center;
+}
+
+.formfirstcontainer input {
+    text-align: center;
+    width: 50%;
+    height: 35px;
+    font-size: 25px;
+}
+
+.formfirstcontainer button {
+    width: 50%;
+    height : 40px;
+    font-size: 22px;
+    border : 2px solid black;
+    border-radius: 10px;
+}
+
+.formfirstcontainer button:hover {
+    background-color: black;
+    color : white;
+    transition: 0.3s;
+}
+
+.shipcontain {
+    width : 100%;
+    height : 225px;
+    color: black;
+}
+
+.popmessage {
+    width: 90%;
+    height: 40px;
+    color : white;
+    background-color: rgb(0, 0, 56);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.popmessage p {
+    margin-top: 3%;
+    padding-top: 1%;
+    font-size: 24px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.containerwin {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    height : 720px;
+}
+
+.containerwin1 {
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    border: 4px solid black;
+    height : 150px;
+}
+
+.containerwin2 {
+    text-align: center;
+    height : 250px;
+    width :100%;
+    font-size: 45px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.mess1 p {
+    font-size: 25px;
+   font-style: italic;
+   color : gray;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.letter {
+    width : 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height : 70px;
+}
+
+.letter img {
+    width: 5%;
+}
+
+.buttoncontainer {
+    display: flex;
+    height : 250px;
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buttoncontainer button {
+    width: 60%;
+    height : 100px;
+    font-size: 45px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.buttoncontainer button:hover {
+    background-color:black;
+    transition: 0.7s;
+    color : white;
+}
+
+.buttoncontainerleft {
+    margin-top: 7%;
+    width: 33%;
+    height : 250px;
+
+}
+
+.buttoncontainermid {
+    margin-top: 7%;
+    width:34%;
+    height: 250px;
+}
+
+.buttoncontainerright button {
+    font-size: 15px;
+}
+
+.buttoncontainerright {
+    margin-top: 7%;
+    width:33%;
+    height: 250px;
+}
+
+.tabinfo1 {
+    width: 90%;
+    height : 40px;
+    background-color: rgb(155,252,155);
+    border-radius: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tabinfo1 p {
+    margin-top: 3%;
+    padding-top: 1%;
+    font-size: 24px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.tabinfo2 {
+    width: 90%;
+    height : 40px;
+    background-color: rgb(255, 100, 100);
+    border-radius: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tabinfo2 p {
+    margin-top: 3%;
+    padding-top: 1%;
+    font-size: 24px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.bigcontentleftbot button:hover {
+    background-color: white;
+    color : black;
+    border : 2px solid black;
+    transition: 0.4s;
+}
+
+.bigcontentrightbox a:hover{
+    font-size: 27px;
+    text-decoration: underline;
+}
+
